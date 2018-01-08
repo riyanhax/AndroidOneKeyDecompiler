@@ -12,6 +12,8 @@
 ### Windows
 把要查看源码的`*.apk/*.aar/*.dex/*.jar`之类文件复制到当前目录，拖拽文件到`drag_here_if_windows.bat`，一会儿便会自动打开jd-gui。
 ### Mac or Linux
+```
 python showjar.py test.apk
+```
 
 需要反编译资源的到`showjar.py`中将`needDecompileResources`值置为1即可。
